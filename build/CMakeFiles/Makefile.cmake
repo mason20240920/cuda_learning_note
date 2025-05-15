@@ -156,4 +156,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "1_cuda_sgemm/CMakeFiles/origin_sgemm.dir/DependInfo.cmake"
+  "1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/DependInfo.cmake"
+  "1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/DependInfo.cmake"
+  "1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/DependInfo.cmake"
+  "1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/DependInfo.cmake"
+  "1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/DependInfo.cmake"
   )

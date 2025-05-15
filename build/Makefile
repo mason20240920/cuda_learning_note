@@ -129,6 +129,71 @@ origin_sgemm/fast:
 	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/origin_sgemm.dir/build.make 1_cuda_sgemm/CMakeFiles/origin_sgemm.dir/build
 .PHONY : origin_sgemm/fast
 
+#=============================================================================
+# Target rules for targets named sgemm_tile_vec4
+
+# Build rule for target.
+sgemm_tile_vec4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sgemm_tile_vec4
+.PHONY : sgemm_tile_vec4
+
+# fast build rule for target.
+sgemm_tile_vec4/fast:
+	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/build
+.PHONY : sgemm_tile_vec4/fast
+
+#=============================================================================
+# Target rules for targets named sgemm_thread_tile_vec4
+
+# Build rule for target.
+sgemm_thread_tile_vec4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sgemm_thread_tile_vec4
+.PHONY : sgemm_thread_tile_vec4
+
+# fast build rule for target.
+sgemm_thread_tile_vec4/fast:
+	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/build
+.PHONY : sgemm_thread_tile_vec4/fast
+
+#=============================================================================
+# Target rules for targets named sgemm_thread_tile_register
+
+# Build rule for target.
+sgemm_thread_tile_register: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sgemm_thread_tile_register
+.PHONY : sgemm_thread_tile_register
+
+# fast build rule for target.
+sgemm_thread_tile_register/fast:
+	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/build
+.PHONY : sgemm_thread_tile_register/fast
+
+#=============================================================================
+# Target rules for targets named sgemm_register_transpose
+
+# Build rule for target.
+sgemm_register_transpose: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sgemm_register_transpose
+.PHONY : sgemm_register_transpose
+
+# fast build rule for target.
+sgemm_register_transpose/fast:
+	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/build
+.PHONY : sgemm_register_transpose/fast
+
+#=============================================================================
+# Target rules for targets named sgemm_double_buffer
+
+# Build rule for target.
+sgemm_double_buffer: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sgemm_double_buffer
+.PHONY : sgemm_double_buffer
+
+# fast build rule for target.
+sgemm_double_buffer/fast:
+	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/build
+.PHONY : sgemm_double_buffer/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -138,6 +203,11 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... origin_sgemm"
+	@echo "... sgemm_double_buffer"
+	@echo "... sgemm_register_transpose"
+	@echo "... sgemm_thread_tile_register"
+	@echo "... sgemm_thread_tile_vec4"
+	@echo "... sgemm_tile_vec4"
 .PHONY : help
 
 

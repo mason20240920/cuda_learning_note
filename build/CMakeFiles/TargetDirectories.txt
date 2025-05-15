@@ -1,5 +1,10 @@
 /usr/mason/projects/cuda_learn_note/build/CMakeFiles/edit_cache.dir
 /usr/mason/projects/cuda_learn_note/build/CMakeFiles/rebuild_cache.dir
 /usr/mason/projects/cuda_learn_note/build/1_cuda_sgemm/CMakeFiles/origin_sgemm.dir
+/usr/mason/projects/cuda_learn_note/build/1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir
+/usr/mason/projects/cuda_learn_note/build/1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir
+/usr/mason/projects/cuda_learn_note/build/1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir
+/usr/mason/projects/cuda_learn_note/build/1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir
+/usr/mason/projects/cuda_learn_note/build/1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir
 /usr/mason/projects/cuda_learn_note/build/1_cuda_sgemm/CMakeFiles/edit_cache.dir
 /usr/mason/projects/cuda_learn_note/build/1_cuda_sgemm/CMakeFiles/rebuild_cache.dir

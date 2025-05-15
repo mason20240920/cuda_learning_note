@@ -1,0 +1,1 @@
+/usr/bin/g++ @CMakeFiles/sgemm_register_transpose.dir/objects1.rsp -o sgemm_register_transpose @CMakeFiles/sgemm_register_transpose.dir/linkLibs.rsp -L"/usr/local/cuda/targets/aarch64-linux/lib/stubs" -L"/usr/local/cuda/targets/aarch64-linux/lib"

@@ -79,6 +79,11 @@ clean: 1_cuda_sgemm/clean
 
 # Recursive "all" directory target.
 1_cuda_sgemm/all: 1_cuda_sgemm/CMakeFiles/origin_sgemm.dir/all
+1_cuda_sgemm/all: 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/all
+1_cuda_sgemm/all: 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/all
+1_cuda_sgemm/all: 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/all
+1_cuda_sgemm/all: 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/all
+1_cuda_sgemm/all: 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/all
 .PHONY : 1_cuda_sgemm/all
 
 # Recursive "preinstall" directory target.
@@ -87,6 +92,11 @@ clean: 1_cuda_sgemm/clean
 
 # Recursive "clean" directory target.
 1_cuda_sgemm/clean: 1_cuda_sgemm/CMakeFiles/origin_sgemm.dir/clean
+1_cuda_sgemm/clean: 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/clean
+1_cuda_sgemm/clean: 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/clean
+1_cuda_sgemm/clean: 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/clean
+1_cuda_sgemm/clean: 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/clean
+1_cuda_sgemm/clean: 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/clean
 .PHONY : 1_cuda_sgemm/clean
 
 #=============================================================================
@@ -114,6 +124,136 @@ origin_sgemm: 1_cuda_sgemm/CMakeFiles/origin_sgemm.dir/rule
 1_cuda_sgemm/CMakeFiles/origin_sgemm.dir/clean:
 	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/origin_sgemm.dir/build.make 1_cuda_sgemm/CMakeFiles/origin_sgemm.dir/clean
 .PHONY : 1_cuda_sgemm/CMakeFiles/origin_sgemm.dir/clean
+
+#=============================================================================
+# Target rules for target 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir
+
+# All Build rule for target.
+1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/all:
+	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/depend
+	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/usr/mason/projects/cuda_learn_note/build/CMakeFiles --progress-num=11,12 "Built target sgemm_tile_vec4"
+.PHONY : 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/all
+
+# Build rule for subdir invocation for target.
+1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/mason/projects/cuda_learn_note/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/mason/projects/cuda_learn_note/build/CMakeFiles 0
+.PHONY : 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/rule
+
+# Convenience name for target.
+sgemm_tile_vec4: 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/rule
+.PHONY : sgemm_tile_vec4
+
+# clean rule for target.
+1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/clean
+.PHONY : 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/clean
+
+#=============================================================================
+# Target rules for target 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir
+
+# All Build rule for target.
+1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/all:
+	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/depend
+	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/usr/mason/projects/cuda_learn_note/build/CMakeFiles --progress-num=9,10 "Built target sgemm_thread_tile_vec4"
+.PHONY : 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/all
+
+# Build rule for subdir invocation for target.
+1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/mason/projects/cuda_learn_note/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/mason/projects/cuda_learn_note/build/CMakeFiles 0
+.PHONY : 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/rule
+
+# Convenience name for target.
+sgemm_thread_tile_vec4: 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/rule
+.PHONY : sgemm_thread_tile_vec4
+
+# clean rule for target.
+1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/clean
+.PHONY : 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/clean
+
+#=============================================================================
+# Target rules for target 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir
+
+# All Build rule for target.
+1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/all:
+	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/depend
+	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/usr/mason/projects/cuda_learn_note/build/CMakeFiles --progress-num=7,8 "Built target sgemm_thread_tile_register"
+.PHONY : 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/all
+
+# Build rule for subdir invocation for target.
+1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/mason/projects/cuda_learn_note/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/mason/projects/cuda_learn_note/build/CMakeFiles 0
+.PHONY : 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/rule
+
+# Convenience name for target.
+sgemm_thread_tile_register: 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/rule
+.PHONY : sgemm_thread_tile_register
+
+# clean rule for target.
+1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/clean
+.PHONY : 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/clean
+
+#=============================================================================
+# Target rules for target 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir
+
+# All Build rule for target.
+1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/all:
+	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/depend
+	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/usr/mason/projects/cuda_learn_note/build/CMakeFiles --progress-num=5,6 "Built target sgemm_register_transpose"
+.PHONY : 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/all
+
+# Build rule for subdir invocation for target.
+1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/mason/projects/cuda_learn_note/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/mason/projects/cuda_learn_note/build/CMakeFiles 0
+.PHONY : 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/rule
+
+# Convenience name for target.
+sgemm_register_transpose: 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/rule
+.PHONY : sgemm_register_transpose
+
+# clean rule for target.
+1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/clean
+.PHONY : 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/clean
+
+#=============================================================================
+# Target rules for target 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir
+
+# All Build rule for target.
+1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/all:
+	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/depend
+	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/usr/mason/projects/cuda_learn_note/build/CMakeFiles --progress-num=3,4 "Built target sgemm_double_buffer"
+.PHONY : 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/all
+
+# Build rule for subdir invocation for target.
+1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/mason/projects/cuda_learn_note/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/mason/projects/cuda_learn_note/build/CMakeFiles 0
+.PHONY : 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/rule
+
+# Convenience name for target.
+sgemm_double_buffer: 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/rule
+.PHONY : sgemm_double_buffer
+
+# clean rule for target.
+1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/clean
+.PHONY : 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

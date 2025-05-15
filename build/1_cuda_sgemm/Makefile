@@ -130,6 +130,76 @@ origin_sgemm/fast:
 	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/origin_sgemm.dir/build.make 1_cuda_sgemm/CMakeFiles/origin_sgemm.dir/build
 .PHONY : origin_sgemm/fast
 
+# Convenience name for target.
+1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/rule:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/rule
+.PHONY : 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/rule
+
+# Convenience name for target.
+sgemm_tile_vec4: 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/rule
+.PHONY : sgemm_tile_vec4
+
+# fast build rule for target.
+sgemm_tile_vec4/fast:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/build
+.PHONY : sgemm_tile_vec4/fast
+
+# Convenience name for target.
+1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/rule:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/rule
+.PHONY : 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/rule
+
+# Convenience name for target.
+sgemm_thread_tile_vec4: 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/rule
+.PHONY : sgemm_thread_tile_vec4
+
+# fast build rule for target.
+sgemm_thread_tile_vec4/fast:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/build
+.PHONY : sgemm_thread_tile_vec4/fast
+
+# Convenience name for target.
+1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/rule:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/rule
+.PHONY : 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/rule
+
+# Convenience name for target.
+sgemm_thread_tile_register: 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/rule
+.PHONY : sgemm_thread_tile_register
+
+# fast build rule for target.
+sgemm_thread_tile_register/fast:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/build
+.PHONY : sgemm_thread_tile_register/fast
+
+# Convenience name for target.
+1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/rule:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/rule
+.PHONY : 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/rule
+
+# Convenience name for target.
+sgemm_register_transpose: 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/rule
+.PHONY : sgemm_register_transpose
+
+# fast build rule for target.
+sgemm_register_transpose/fast:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/build
+.PHONY : sgemm_register_transpose/fast
+
+# Convenience name for target.
+1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/rule:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/rule
+.PHONY : 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/rule
+
+# Convenience name for target.
+sgemm_double_buffer: 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/rule
+.PHONY : sgemm_double_buffer
+
+# fast build rule for target.
+sgemm_double_buffer/fast:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/build
+.PHONY : sgemm_double_buffer/fast
+
 origin_sgemm.o: origin_sgemm.cu.o
 .PHONY : origin_sgemm.o
 
@@ -154,6 +224,126 @@ origin_sgemm.cu.s:
 	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/origin_sgemm.dir/build.make 1_cuda_sgemm/CMakeFiles/origin_sgemm.dir/origin_sgemm.cu.s
 .PHONY : origin_sgemm.cu.s
 
+sgemm_double_buffer.o: sgemm_double_buffer.cu.o
+.PHONY : sgemm_double_buffer.o
+
+# target to build an object file
+sgemm_double_buffer.cu.o:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/sgemm_double_buffer.cu.o
+.PHONY : sgemm_double_buffer.cu.o
+
+sgemm_double_buffer.i: sgemm_double_buffer.cu.i
+.PHONY : sgemm_double_buffer.i
+
+# target to preprocess a source file
+sgemm_double_buffer.cu.i:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/sgemm_double_buffer.cu.i
+.PHONY : sgemm_double_buffer.cu.i
+
+sgemm_double_buffer.s: sgemm_double_buffer.cu.s
+.PHONY : sgemm_double_buffer.s
+
+# target to generate assembly for a file
+sgemm_double_buffer.cu.s:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/sgemm_double_buffer.cu.s
+.PHONY : sgemm_double_buffer.cu.s
+
+sgemm_register_transpose.o: sgemm_register_transpose.cu.o
+.PHONY : sgemm_register_transpose.o
+
+# target to build an object file
+sgemm_register_transpose.cu.o:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/sgemm_register_transpose.cu.o
+.PHONY : sgemm_register_transpose.cu.o
+
+sgemm_register_transpose.i: sgemm_register_transpose.cu.i
+.PHONY : sgemm_register_transpose.i
+
+# target to preprocess a source file
+sgemm_register_transpose.cu.i:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/sgemm_register_transpose.cu.i
+.PHONY : sgemm_register_transpose.cu.i
+
+sgemm_register_transpose.s: sgemm_register_transpose.cu.s
+.PHONY : sgemm_register_transpose.s
+
+# target to generate assembly for a file
+sgemm_register_transpose.cu.s:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/sgemm_register_transpose.cu.s
+.PHONY : sgemm_register_transpose.cu.s
+
+sgemm_thread_tile_register.o: sgemm_thread_tile_register.cu.o
+.PHONY : sgemm_thread_tile_register.o
+
+# target to build an object file
+sgemm_thread_tile_register.cu.o:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/sgemm_thread_tile_register.cu.o
+.PHONY : sgemm_thread_tile_register.cu.o
+
+sgemm_thread_tile_register.i: sgemm_thread_tile_register.cu.i
+.PHONY : sgemm_thread_tile_register.i
+
+# target to preprocess a source file
+sgemm_thread_tile_register.cu.i:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/sgemm_thread_tile_register.cu.i
+.PHONY : sgemm_thread_tile_register.cu.i
+
+sgemm_thread_tile_register.s: sgemm_thread_tile_register.cu.s
+.PHONY : sgemm_thread_tile_register.s
+
+# target to generate assembly for a file
+sgemm_thread_tile_register.cu.s:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/sgemm_thread_tile_register.cu.s
+.PHONY : sgemm_thread_tile_register.cu.s
+
+sgemm_thread_tile_vec4.o: sgemm_thread_tile_vec4.cu.o
+.PHONY : sgemm_thread_tile_vec4.o
+
+# target to build an object file
+sgemm_thread_tile_vec4.cu.o:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/sgemm_thread_tile_vec4.cu.o
+.PHONY : sgemm_thread_tile_vec4.cu.o
+
+sgemm_thread_tile_vec4.i: sgemm_thread_tile_vec4.cu.i
+.PHONY : sgemm_thread_tile_vec4.i
+
+# target to preprocess a source file
+sgemm_thread_tile_vec4.cu.i:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/sgemm_thread_tile_vec4.cu.i
+.PHONY : sgemm_thread_tile_vec4.cu.i
+
+sgemm_thread_tile_vec4.s: sgemm_thread_tile_vec4.cu.s
+.PHONY : sgemm_thread_tile_vec4.s
+
+# target to generate assembly for a file
+sgemm_thread_tile_vec4.cu.s:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/sgemm_thread_tile_vec4.cu.s
+.PHONY : sgemm_thread_tile_vec4.cu.s
+
+sgemm_tile_vec4.o: sgemm_tile_vec4.cu.o
+.PHONY : sgemm_tile_vec4.o
+
+# target to build an object file
+sgemm_tile_vec4.cu.o:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/sgemm_tile_vec4.cu.o
+.PHONY : sgemm_tile_vec4.cu.o
+
+sgemm_tile_vec4.i: sgemm_tile_vec4.cu.i
+.PHONY : sgemm_tile_vec4.i
+
+# target to preprocess a source file
+sgemm_tile_vec4.cu.i:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/sgemm_tile_vec4.cu.i
+.PHONY : sgemm_tile_vec4.cu.i
+
+sgemm_tile_vec4.s: sgemm_tile_vec4.cu.s
+.PHONY : sgemm_tile_vec4.s
+
+# target to generate assembly for a file
+sgemm_tile_vec4.cu.s:
+	cd /usr/mason/projects/cuda_learn_note/build && $(MAKE) $(MAKESILENT) -f 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/build.make 1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/sgemm_tile_vec4.cu.s
+.PHONY : sgemm_tile_vec4.cu.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -163,9 +353,29 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... origin_sgemm"
+	@echo "... sgemm_double_buffer"
+	@echo "... sgemm_register_transpose"
+	@echo "... sgemm_thread_tile_register"
+	@echo "... sgemm_thread_tile_vec4"
+	@echo "... sgemm_tile_vec4"
 	@echo "... origin_sgemm.o"
 	@echo "... origin_sgemm.i"
 	@echo "... origin_sgemm.s"
+	@echo "... sgemm_double_buffer.o"
+	@echo "... sgemm_double_buffer.i"
+	@echo "... sgemm_double_buffer.s"
+	@echo "... sgemm_register_transpose.o"
+	@echo "... sgemm_register_transpose.i"
+	@echo "... sgemm_register_transpose.s"
+	@echo "... sgemm_thread_tile_register.o"
+	@echo "... sgemm_thread_tile_register.i"
+	@echo "... sgemm_thread_tile_register.s"
+	@echo "... sgemm_thread_tile_vec4.o"
+	@echo "... sgemm_thread_tile_vec4.i"
+	@echo "... sgemm_thread_tile_vec4.s"
+	@echo "... sgemm_tile_vec4.o"
+	@echo "... sgemm_tile_vec4.i"
+	@echo "... sgemm_tile_vec4.s"
 .PHONY : help
 
 

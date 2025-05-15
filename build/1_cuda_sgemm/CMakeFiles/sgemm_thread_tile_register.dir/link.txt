@@ -1,0 +1,1 @@
+/usr/bin/g++ @CMakeFiles/sgemm_thread_tile_register.dir/objects1.rsp -o sgemm_thread_tile_register @CMakeFiles/sgemm_thread_tile_register.dir/linkLibs.rsp -L"/usr/local/cuda/targets/aarch64-linux/lib/stubs" -L"/usr/local/cuda/targets/aarch64-linux/lib"

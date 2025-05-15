@@ -1,0 +1,121 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "1_cuda_sgemm",
+					"jsonFile" : "directory-1_cuda_sgemm-Debug-c4aed9a63818870ab790.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "1_cuda_sgemm",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "cuda_universal_demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "origin_sgemm::@f6588c812f0b393417a4",
+					"jsonFile" : "target-origin_sgemm-Debug-57e13b597428f53a3838.json",
+					"name" : "origin_sgemm",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sgemm_double_buffer::@f6588c812f0b393417a4",
+					"jsonFile" : "target-sgemm_double_buffer-Debug-4ed840775cf95bf492df.json",
+					"name" : "sgemm_double_buffer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sgemm_register_transpose::@f6588c812f0b393417a4",
+					"jsonFile" : "target-sgemm_register_transpose-Debug-f97c98497cdc1a99aed3.json",
+					"name" : "sgemm_register_transpose",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sgemm_thread_tile_register::@f6588c812f0b393417a4",
+					"jsonFile" : "target-sgemm_thread_tile_register-Debug-b2e46fd0b462cedf22e3.json",
+					"name" : "sgemm_thread_tile_register",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sgemm_thread_tile_vec4::@f6588c812f0b393417a4",
+					"jsonFile" : "target-sgemm_thread_tile_vec4-Debug-f5043a7fde0166b699d2.json",
+					"name" : "sgemm_thread_tile_vec4",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sgemm_tile_vec4::@f6588c812f0b393417a4",
+					"jsonFile" : "target-sgemm_tile_vec4-Debug-73766e2a72a004864487.json",
+					"name" : "sgemm_tile_vec4",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/usr/mason/projects/cuda_learn_note/build",
+		"source" : "/usr/mason/projects/cuda_learn_note"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

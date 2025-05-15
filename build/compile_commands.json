@@ -4,5 +4,35 @@
   "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  --options-file CMakeFiles/origin_sgemm.dir/includes_CUDA.rsp -g \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -G -x cu -c /usr/mason/projects/cuda_learn_note/1_cuda_sgemm/origin_sgemm.cu -o CMakeFiles/origin_sgemm.dir/origin_sgemm.cu.o",
   "file": "/usr/mason/projects/cuda_learn_note/1_cuda_sgemm/origin_sgemm.cu",
   "output": "1_cuda_sgemm/CMakeFiles/origin_sgemm.dir/origin_sgemm.cu.o"
+},
+{
+  "directory": "/usr/mason/projects/cuda_learn_note/build/1_cuda_sgemm",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  --options-file CMakeFiles/sgemm_tile_vec4.dir/includes_CUDA.rsp -g \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -G -x cu -c /usr/mason/projects/cuda_learn_note/1_cuda_sgemm/sgemm_tile_vec4.cu -o CMakeFiles/sgemm_tile_vec4.dir/sgemm_tile_vec4.cu.o",
+  "file": "/usr/mason/projects/cuda_learn_note/1_cuda_sgemm/sgemm_tile_vec4.cu",
+  "output": "1_cuda_sgemm/CMakeFiles/sgemm_tile_vec4.dir/sgemm_tile_vec4.cu.o"
+},
+{
+  "directory": "/usr/mason/projects/cuda_learn_note/build/1_cuda_sgemm",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  --options-file CMakeFiles/sgemm_thread_tile_vec4.dir/includes_CUDA.rsp -g \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -G -x cu -c /usr/mason/projects/cuda_learn_note/1_cuda_sgemm/sgemm_thread_tile_vec4.cu -o CMakeFiles/sgemm_thread_tile_vec4.dir/sgemm_thread_tile_vec4.cu.o",
+  "file": "/usr/mason/projects/cuda_learn_note/1_cuda_sgemm/sgemm_thread_tile_vec4.cu",
+  "output": "1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_vec4.dir/sgemm_thread_tile_vec4.cu.o"
+},
+{
+  "directory": "/usr/mason/projects/cuda_learn_note/build/1_cuda_sgemm",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  --options-file CMakeFiles/sgemm_thread_tile_register.dir/includes_CUDA.rsp -g \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -G -x cu -c /usr/mason/projects/cuda_learn_note/1_cuda_sgemm/sgemm_thread_tile_register.cu -o CMakeFiles/sgemm_thread_tile_register.dir/sgemm_thread_tile_register.cu.o",
+  "file": "/usr/mason/projects/cuda_learn_note/1_cuda_sgemm/sgemm_thread_tile_register.cu",
+  "output": "1_cuda_sgemm/CMakeFiles/sgemm_thread_tile_register.dir/sgemm_thread_tile_register.cu.o"
+},
+{
+  "directory": "/usr/mason/projects/cuda_learn_note/build/1_cuda_sgemm",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  --options-file CMakeFiles/sgemm_register_transpose.dir/includes_CUDA.rsp -g \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -G -x cu -c /usr/mason/projects/cuda_learn_note/1_cuda_sgemm/sgemm_register_transpose.cu -o CMakeFiles/sgemm_register_transpose.dir/sgemm_register_transpose.cu.o",
+  "file": "/usr/mason/projects/cuda_learn_note/1_cuda_sgemm/sgemm_register_transpose.cu",
+  "output": "1_cuda_sgemm/CMakeFiles/sgemm_register_transpose.dir/sgemm_register_transpose.cu.o"
+},
+{
+  "directory": "/usr/mason/projects/cuda_learn_note/build/1_cuda_sgemm",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  --options-file CMakeFiles/sgemm_double_buffer.dir/includes_CUDA.rsp -g \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -G -x cu -c /usr/mason/projects/cuda_learn_note/1_cuda_sgemm/sgemm_double_buffer.cu -o CMakeFiles/sgemm_double_buffer.dir/sgemm_double_buffer.cu.o",
+  "file": "/usr/mason/projects/cuda_learn_note/1_cuda_sgemm/sgemm_double_buffer.cu",
+  "output": "1_cuda_sgemm/CMakeFiles/sgemm_double_buffer.dir/sgemm_double_buffer.cu.o"
 }
 ]
