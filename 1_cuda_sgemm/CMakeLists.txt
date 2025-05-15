@@ -1,0 +1,5 @@
+add_executable(origin_sgemm origin_sgemm.cu)
+target_link_libraries(origin_sgemm PRIVATE CUDA::cudart ${CUDA_cublas_LIBRARY})
+if (CMAKE_BUILD_TYPE STREQUAL "Debug")
+    target_compile_options(origin_sgemm PRIVATE $<$<COMPILE_LANGUAGE:CUDA>:-G>)
+endif ()

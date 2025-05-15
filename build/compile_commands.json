@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/usr/mason/projects/cuda_learn_note/build/1_cuda_sgemm",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler  --options-file CMakeFiles/origin_sgemm.dir/includes_CUDA.rsp -g \"--generate-code=arch=compute_80,code=[compute_80,sm_80]\" -G -x cu -c /usr/mason/projects/cuda_learn_note/1_cuda_sgemm/origin_sgemm.cu -o CMakeFiles/origin_sgemm.dir/origin_sgemm.cu.o",
+  "file": "/usr/mason/projects/cuda_learn_note/1_cuda_sgemm/origin_sgemm.cu",
+  "output": "1_cuda_sgemm/CMakeFiles/origin_sgemm.dir/origin_sgemm.cu.o"
+}
+]
